@@ -45,3 +45,5 @@ def forge(count):
 
     db.session.commit()
     click.echo('Created %d fake messages.' % count)
+
+

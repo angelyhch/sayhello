@@ -5,6 +5,7 @@
     :copyright: © 2018 Grey Li <withlihui@gmail.com>
     :license: MIT, see LICENSE for more details.
 """
+
 from flask import flash, redirect, url_for, render_template
 
 from sayhello import app, db
